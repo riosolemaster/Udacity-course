@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+   <ImageView
+    android:id="@+id/drawable_car"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/car"
+    android:paddingBottom="110dp"/>
+
+    <TextView 
+    android:id="@+id/title"    
+    android:text="Presentation and thanks" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif"
+    android:textColor="#F44336"
+    android:layout_toRightOf="@id/drawable_car"
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"    />
+
+     <TextView 
+    android:id="@+id/name_surname"     
+    android:text="My name is Willy Salutari " 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#F44336"
+    android:layout_below="@id/title"     
+    android:layout_toRightOf="@id/drawable_car"
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"    
+    />
+      <TextView 
+    android:id="@+id/nation"      
+    android:text="from Italy" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#F44336"
+    android:layout_below="@id/name_surname"     
+    android:layout_toRightOf="@id/drawable_car"
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"    
+    /> 
+    
+    <TextView 
+    android:id="@+id/udacity"
+    android:text="Digital School Udacity" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#F44336"
+    android:layout_below="@id/nation"     
+    android:layout_toRightOf="@id/drawable_car" 
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"  
+    /> 
+    
+    <TextView 
+    android:id="@+id/thanks_udacity"   
+    android:text="5Thanks to Udacity for the modernity of teaching" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:background="#18FFFF"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#FFFFFF"
+    android:layout_below="@id/udacity"
+    android:padding="20dp"/> 
+    
+    <TextView 
+    android:id="@+id/thanks_prof"    
+    android:text="6Thanks to the professors for their teachings" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:background="#76FF03"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#FFFFFF"
+    android:layout_below="@id/thanks_udacity"    
+    android:padding="20dp"/> 
+    
+    <TextView 
+    android:id="@+id/thanks_comp"    
+    android:text="7gghhhhhhhhhhhhhvvvvvvv" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:background="#FFFF00"   
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#FFFFFF"
+    android:layout_below="@id/thanks_prof"   
+    android:padding="20dp"/> 
+    
+    <TextView 
+    android:id="@+id/thanks_all"    
+    android:text="8Thanks to my companions for their share" 
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="#FF3D00"     
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#FFFFFF"
+    android:layout_below="@id/thanks_comp"    
+    android:padding="20dp"/>
+    
+    <TextView 
+    android:id="@+id/rio_sole_master"    
+    android:text="9Designed by Rio Sole Master" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    android:background="#000000"     
+    android:textSize="16sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="#FFFFFF"
+    android:layout_below="@id/thanks_all"    
+    android:padding="20dp"/>
+    
+</RelativeLayout>
