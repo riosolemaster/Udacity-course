@@ -31,7 +31,7 @@
     android:layout_height="wrap_content"
     android:textSize="16sp"
     android:fontFamily="sans-serif-light"
-    android:textColor="#F44336"
+    android:textColor="#18FFFF"
     android:layout_below="@id/title"     
     android:layout_toRightOf="@id/drawable_car"
     android:paddingTop="8dp"
@@ -69,8 +69,7 @@
     android:id="@+id/thanks_udacity"   
     android:text="5Thanks to Udacity for the modernity of teaching" 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   
+    android:layout_height="wrap_content"
     android:background="#18FFFF"
     android:textSize="16sp"
     android:fontFamily="sans-serif-light"
@@ -82,8 +81,7 @@
     android:id="@+id/thanks_prof"    
     android:text="6Thanks to the professors for their teachings" 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   
+    android:layout_height="wrap_content"
     android:background="#76FF03"
     android:textSize="16sp"
     android:fontFamily="sans-serif-light"
@@ -95,8 +93,7 @@
     android:id="@+id/thanks_comp"    
     android:text="7gghhhhhhhhhhhhhvvvvvvv" 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   
+    android:layout_height="wrap_content"
     android:background="#FFFF00"   
     android:textSize="16sp"
     android:fontFamily="sans-serif-light"
@@ -107,9 +104,8 @@
     <TextView 
     android:id="@+id/thanks_all"    
     android:text="8Thanks to my companions for their share" 
-   android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:background="#FF3D00"     
     android:textSize="16sp"
     android:fontFamily="sans-serif-light"
@@ -121,8 +117,7 @@
     android:id="@+id/rio_sole_master"    
     android:text="9Designed by Rio Sole Master" 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-  
+    android:layout_height="wrap_content"
     android:background="#000000"     
     android:textSize="16sp"
     android:fontFamily="sans-serif-light"
